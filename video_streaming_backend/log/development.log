@@ -1,0 +1,820 @@
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/stream/your_video_key_in_s3" for 127.0.0.1 at 2024-09-05 09:29:09 +0530
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/stream/your_video_key_in_s3"):
+  
+Started GET "/stream/https://s3-use2-identifi-static-content.s3.us-east-2.amazonaws.com/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:32:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/stream/https:/s3-use2-identifi-static-content.s3.us-east-2.amazonaws.com/0123141f-e748-43ea-838c-07684e7b18e9"):
+  
+Started GET "/stream/https://s3-use2-identifi-static-content.s3.us-east-2.amazonaws.com/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:32:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/stream/https:/s3-use2-identifi-static-content.s3.us-east-2.amazonaws.com/0123141f-e748-43ea-838c-07684e7b18e9"):
+  
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:33:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/stream/0123141f-e748-43ea-838c-07684e7b18e9"):
+  
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9.mp4" for 127.0.0.1 at 2024-09-05 09:34:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/stream/0123141f-e748-43ea-838c-07684e7b18e9.mp4"):
+  
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:34:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/stream/0123141f-e748-43ea-838c-07684e7b18e9"):
+  
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:37:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/stream/0123141f-e748-43ea-838c-07684e7b18e9"):
+  
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:40:52 +0530
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:40:52 +0530
+  
+NameError (uninitialized constant Rack::Cors):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:40:52 +0530
+  
+NameError (uninitialized constant Rack::Cors):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+  
+NameError (uninitialized constant Rack::Cors):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:43:33 +0530
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:43:33 +0530
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:43:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NameError (uninitialized constant Rack::Cors):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+  
+NameError (uninitialized constant Rack::Cors):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+  
+NameError (uninitialized constant Rack::Cors):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:44:31 +0530
+Processing by VideosController#stream as */*
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Started HEAD "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:46:02 +0530
+Processing by VideosController#stream as */*
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Started HEAD "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:46:02 +0530
+Processing by VideosController#stream as */*
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 100017ms (ActiveRecord: 0.0ms | Allocations: 223988)
+
+
+Completed 200 OK in 47947ms (ActiveRecord: 0.0ms | Allocations: 34639)
+
+
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:46:57 +0530
+Processing by VideosController#stream as HTML
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 61520ms (ActiveRecord: 0.0ms | Allocations: 50962)
+
+
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:47:38 +0530
+Processing by VideosController#stream as HTML
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 69179ms (ActiveRecord: 0.0ms | Allocations: 38562)
+
+
+Completed 200 OK in 63412ms (ActiveRecord: 0.0ms | Allocations: 29687)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2024-09-05 09:48:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started HEAD "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:51:43 +0530
+Started HEAD "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:51:43 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+FrozenError (can't modify frozen Array: [Rack::Cors, ActionDispatch::HostAuthorization, Rack::Sendfile, ActionDispatch::Static, ActionDispatch::Executor, ActionDispatch::ServerTiming, ActiveSupport::Cache::Strategy::LocalCache::Middleware, Rack::Runtime, ActionDispatch::RequestId, ActionDispatch::RemoteIp, Rails::Rack::Logger, ActionDispatch::ShowExceptions, ActionDispatch::DebugExceptions, ActionDispatch::ActionableExceptions, ActionDispatch::Reloader, ActionDispatch::Callbacks, ActiveRecord::Migration::CheckPending, Rack::Head, Rack::ConditionalGet, Rack::ETag]):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+  
+FrozenError (can't modify frozen Array: [Rack::Cors, ActionDispatch::HostAuthorization, Rack::Sendfile, ActionDispatch::Static, ActionDispatch::Executor, ActionDispatch::ServerTiming, ActiveSupport::Cache::Strategy::LocalCache::Middleware, Rack::Runtime, ActionDispatch::RequestId, ActionDispatch::RemoteIp, Rails::Rack::Logger, ActionDispatch::ShowExceptions, ActionDispatch::DebugExceptions, ActionDispatch::ActionableExceptions, ActionDispatch::Reloader, ActionDispatch::Callbacks, ActiveRecord::Migration::CheckPending, Rack::Head, Rack::ConditionalGet, Rack::ETag]):
+  
+app/controllers/videos_controller.rb:39:in `<main>'
+Started HEAD "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:52:01 +0530
+Processing by VideosController#stream as */*
+  Parameters: {"video_key"=>"[FILTERED]"}
+Started HEAD "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:52:01 +0530
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Processing by VideosController#stream as */*
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 58769ms (ActiveRecord: 0.0ms | Allocations: 37110)
+
+
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:53:00 +0530
+Processing by VideosController#stream as HTML
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 78674ms (ActiveRecord: 0.0ms | Allocations: 263233)
+
+
+Completed 200 OK in 98695ms (ActiveRecord: 0.0ms | Allocations: 21756)
+
+
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:55:56 +0530
+Processing by VideosController#stream as HTML
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 105531ms (ActiveRecord: 0.0ms | Allocations: 18599)
+
+
+Started GET "/stream/0123141f-e748-43ea-838c-07684e7b18e9" for 127.0.0.1 at 2024-09-05 09:57:52 +0530
+Processing by VideosController#stream as HTML
+  Parameters: {"video_key"=>"[FILTERED]"}
+Attempting to stream video with key: 0123141f-e748-43ea-838c-07684e7b18e9
+Completed 200 OK in 97352ms (ActiveRecord: 0.0ms | Allocations: 18787)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:23:31 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000061bc45a8a468 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-653653-vxwc4m.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 6986ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 217852)
+
+
+Started GET "/videos/signed_url/videos/beacd319-8ff1-4f3b-97c3-1eea4b4025b8-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:23:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/videos/signed_url/videos/beacd319-8ff1-4f3b-97c3-1eea4b4025b8-file_example_MP4_480_1_5MG.mp4"):
+  
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:27:21 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007c45348d4e88 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-659724-ye4fts.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 5331ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 217842)
+
+
+Started GET "/videos/signed_url?key=videos%2F11e20c99-7aa3-476a-ab75-8db4e58d80df-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:27:26 +0530
+Processing by VideosController#get_signed_url as HTML
+  Parameters: {"key"=>"videos/11e20c99-7aa3-476a-ab75-8db4e58d80df-file_example_MP4_480_1_5MG.mp4"}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3327)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:30:57 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007c4524c5a6a8 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-659724-ruogzl.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 7074ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4328)
+
+
+Started GET "/videos/signed_url?key=videos%2F9aabc263-6179-4892-bc0e-e0caac11a61c-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:31:04 +0530
+Processing by VideosController#get_signed_url as HTML
+  Parameters: {"key"=>"videos/9aabc263-6179-4892-bc0e-e0caac11a61c-file_example_MP4_480_1_5MG.mp4"}
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 3212)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:33:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005bb01e407908 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-664434-5o64tf.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 6877ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 217850)
+
+
+Started GET "/videos/signed_url?key=videos%2F103a8a6b-e3b4-4b59-b97c-973261755ec5-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:33:15 +0530
+Processing by VideosController#get_signed_url as HTML
+  Parameters: {"key"=>"videos/103a8a6b-e3b4-4b59-b97c-973261755ec5-file_example_MP4_480_1_5MG.mp4"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3390)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:37:50 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000064ba3742be80 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-667822-atf04u.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 3486ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 217837)
+
+
+Started GET "/videos/signed_url?key=videos%2Ff2da7184-b843-41a6-ab65-fe0d2e57d904-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:37:54 +0530
+Processing by VideosController#get_signed_url as HTML
+  Parameters: {"key"=>"videos/f2da7184-b843-41a6-ab65-fe0d2e57d904-file_example_MP4_480_1_5MG.mp4"}
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 3390)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:43:53 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000599587e0e518 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-672596-9pdhzr.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 5680ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 217846)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:46:06 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005e2d42a371e0 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-674496-btvwae.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 204 No Content in 23ms (ActiveRecord: 0.0ms | Allocations: 19242)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:47:11 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005e2d42fd1718 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-674496-w5y77y.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 19)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:51:47 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000056ccfc56c438 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-678827-c8etc9.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 6249ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 217849)
+
+
+Started GET "/videos/stream/videos/ffb2f1a3-a7af-445c-8988-c96d9c81fdd9-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:51:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/videos/stream/videos/ffb2f1a3-a7af-445c-8988-c96d9c81fdd9-file_example_MP4_480_1_5MG.mp4"):
+  
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/videos/stream/videos/ffb2f1a3-a7af-445c-8988-c96d9c81fdd9-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:56:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/ffb2f1a3-a7af-445c-8988-c96d9c81fdd9-file_example_MP4_480_1_5MG"}
+S3 streaming error: Aws::S3::Errors::NotFound
+Completed 500 Internal Server Error in 1282ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 217224)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:56:07 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000072a4b49090e0 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-682069-zxzlyv.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 6928ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4486)
+
+
+Started GET "/videos/stream/videos/27e115c5-51e6-46b8-9d41-79fc27a0b25b-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:56:15 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/27e115c5-51e6-46b8-9d41-79fc27a0b25b-file_example_MP4_480_1_5MG"}
+S3 streaming error: Aws::S3::Errors::NotFound
+Completed 500 Internal Server Error in 256ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3494)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/videos/stream/videos%2F27e115c5-51e6-46b8-9d41-79fc27a0b25b-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:58:36 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/27e115c5-51e6-46b8-9d41-79fc27a0b25b-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/27e115c5-51e6-46b8-9d41-79fc27a0b25b-file_example_MP4_480_1_5MG
+S3 object not found: Aws::S3::Errors::NotFound
+Completed 404 Not Found in 1097ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 217227)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 10:58:45 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000070fea9874628 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-684180-icbgn5.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/54985baf-b752-4f8a-acb3-2bc4bd481d15-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 7339ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4496)
+
+
+Started GET "/videos/stream/videos%2F54985baf-b752-4f8a-acb3-2bc4bd481d15-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 10:58:53 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/54985baf-b752-4f8a-acb3-2bc4bd481d15-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/54985baf-b752-4f8a-acb3-2bc4bd481d15-file_example_MP4_480_1_5MG
+S3 object not found: Aws::S3::Errors::NotFound
+Completed 404 Not Found in 233ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3506)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 11:01:35 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000769190903970 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-686414-44mdtp.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/b51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 5797ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 217859)
+
+
+Started GET "/videos/stream/videos%2Fb51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:01:41 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/b51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/b51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 583ms (ActiveRecord: 0.0ms | Allocations: 5489)
+
+
+Started GET "/videos/stream/videos%2Fb51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:01:42 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/b51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/b51878ed-2507-48c7-a29e-4b9ced8c8a7f-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 7436ms (ActiveRecord: 0.0ms | Allocations: 6502)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 11:02:38 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000769191c58f98 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-686414-gvxcta.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 7112ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4330)
+
+
+Started GET "/videos/stream/videos%2F21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:02:46 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 565ms (ActiveRecord: 0.0ms | Allocations: 5315)
+
+
+Started GET "/videos/stream/videos%2F21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:02:46 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/21f7d23b-8d17-4584-ab41-42606c017f2e-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 4798ms (ActiveRecord: 0.0ms | Allocations: 6704)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 11:04:07 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000063010da5f4f8 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-688725-ceb2em.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 4455ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 217858)
+
+
+Started GET "/videos/stream/videos%2F3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:04:12 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 552ms (ActiveRecord: 0.0ms | Allocations: 5485)
+
+
+Started GET "/videos/stream/videos%2F3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:04:13 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 9936ms (ActiveRecord: 0.0ms | Allocations: 6565)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/videos/stream/videos%2F3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:08:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 1480ms (ActiveRecord: 0.0ms | Allocations: 219086)
+
+
+Started GET "/videos/stream/videos%2F3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:08:01 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/3e6dddb0-9a64-49f5-b6ea-bb438f7ce634-file_example_MP4_480_1_5MG.mp4
+Started POST "/videos/upload" for ::1 at 2024-09-05 11:08:09 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007ee9ed9c58a0 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-691608-sz4g0b.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 206 Partial Content in 11427ms (ActiveRecord: 0.0ms | Allocations: 13885)
+
+
+File uploaded successfully with key: videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 8067ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 5507)
+
+
+Started GET "/videos/stream/videos%2F1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:08:17 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 683ms (ActiveRecord: 0.0ms | Allocations: 5333)
+
+
+Started GET "/videos/stream/videos%2F1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 11:08:18 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 8671ms (ActiveRecord: 0.0ms | Allocations: 6556)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/videos/stream/videos%2F1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 12:45:36 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/1972268f-31e3-4bf0-93c0-b6a3c428cfd5-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 6819ms (ActiveRecord: 0.0ms | Allocations: 219097)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 12:45:46 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000077f47098b4a8 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-727145-6q0fuy.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 9211ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 4266)
+
+
+Started GET "/videos/stream/videos%2F6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 12:45:56 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 865ms (ActiveRecord: 0.0ms | Allocations: 5331)
+
+
+Started GET "/videos/stream/videos%2F6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 12:45:57 +0530
+Processing by VideosController#stream as MP4
+  Parameters: {"key"=>"videos/6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG"}
+Attempting to stream file with key: videos/6af3c16d-b24d-4526-88cb-476f8ac2855a-file_example_MP4_480_1_5MG.mp4
+Completed 206 Partial Content in 14245ms (ActiveRecord: 0.0ms | Allocations: 6677)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 12:56:45 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005ea5d1432aa8 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-734596-echcnc.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 80112ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 233969)
+
+
+Started GET "/videos/stream/videos%2Fd25bf8e1-f3fd-45a6-a5b1-24116110d2c9-file_example_MP4_480_1_5MG.mp4" for ::1 at 2024-09-05 12:58:06 +0530
+  
+AbstractController::ActionNotFound (The action 'stream' could not be found for VideosController):
+  
+actionpack (7.1.4) lib/abstract_controller/base.rb:155:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/videos/videos%2Fd25bf8e1-f3fd-45a6-a5b1-24116110d2c9-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:01:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/videos/videos%2Fd25bf8e1-f3fd-45a6-a5b1-24116110d2c9-file_example_MP4_480_1_5MG.mp4/manifest.m3u8"):
+  
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 13:02:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000058cea121b290 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-740185-hr3att.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 26318ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 233185)
+
+
+Started GET "/videos/videos%2Fe24d1707-86e7-46aa-b577-394d7b6d75b7-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:02:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/videos/videos%2Fe24d1707-86e7-46aa-b577-394d7b6d75b7-file_example_MP4_480_1_5MG.mp4/manifest.m3u8"):
+  
+Started GET "/videos/e24d1707-86e7-46aa-b577-394d7b6d75b7-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:04:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/videos/e24d1707-86e7-46aa-b577-394d7b6d75b7-file_example_MP4_480_1_5MG.mp4/manifest.m3u8"):
+  
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 13:11:13 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000077b2dc8fc6e8 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-744517-cybfk1.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 56470ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 233535)
+
+
+Started GET "/videos/211c4f45-72f9-4ec5-a1ab-5c12a209bc35-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:12:10 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/videos/211c4f45-72f9-4ec5-a1ab-5c12a209bc35-file_example_MP4_480_1_5MG.mp4/manifest.m3u8"):
+  
+Started GET "/videos/211c4f45-72f9-4ec5-a1ab-5c12a209bc35-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:19:23 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"211c4f45-72f9-4ec5-a1ab-5c12a209bc35-file_example_MP4_480_1_5MG.mp4"}
+Completed 404 Not Found in 1463ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 3975)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 13:20:35 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000059a3c7adaf38 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-754802-was1f9.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Completed 200 OK in 24481ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 233246)
+
+
+Started GET "/videos/videos%2F4bff3cde-69f9-46dd-9c1d-378163833a44-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:21:00 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/4bff3cde-69f9-46dd-9c1d-378163833a44-file_example_MP4_480_1_5MG.mp4"}
+Completed 404 Not Found in 353ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3650)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 13:26:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00006478fb14f810 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-759374-dkdr10.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4
+Converting video to HLS: /tmp/manifest.m3u8
+Uploading manifest: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Uploading segment: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest0.ts
+Uploading segment: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest1.ts
+Uploading segment: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest2.ts
+HLS conversion and upload completed for key: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 38238ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 233376)
+
+
+Started GET "/videos/videos%2F0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 13:26:56 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.3ms)
+Completed 200 OK in 359ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 3922)
+
+
+Started GET "/videos/videos%2F0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4/manifest0.ts" for ::1 at 2024-09-05 13:26:56 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/0e0a0222-a188-49f2-965e-f7bac156faa3-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest0.ts"}
+Sent data  (0.2ms)
+Completed 200 OK in 3227ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4083)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 19:21:43 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007081ac905440 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-935820-horqec.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Error: Failed to open TCP connection to s3-use2-identifi-static-content.s3.us-east-2.amazonaws.com:443 (getaddrinfo: Name or service not known)
+Completed 500 Internal Server Error in 2252ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 218288)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 19:22:17 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000070819cbcec68 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-935820-iz52qz.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+Error: Failed to open TCP connection to s3-use2-identifi-static-content.s3.us-east-2.amazonaws.com:443 (getaddrinfo: Name or service not known)
+Completed 500 Internal Server Error in 2142ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4964)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 19:23:01 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007081adc39548 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-935820-pcou3n.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4
+Converting video to HLS: /tmp/manifest.m3u8
+Uploading manifest: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Uploading segment: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest0.ts
+Uploading segment: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest1.ts
+Uploading segment: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest2.ts
+HLS conversion and upload completed for key: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 18494ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 19868)
+
+
+Started GET "/videos/videos%2F2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 19:23:20 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.6ms)
+Completed 200 OK in 399ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+Started GET "/videos/videos%2F2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4/manifest0.ts" for ::1 at 2024-09-05 19:23:20 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/2a2233a5-5380-487d-8313-1351e42e4113-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest0.ts"}
+Sent data  (0.5ms)
+Completed 200 OK in 886ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4021)
+
+
+Started POST "/videos/upload" for ::1 at 2024-09-05 20:00:13 +0530
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007081ad195038 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-935820-d36fqt.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4
+Converting video to HLS: /tmp/manifest.m3u8
+Uploading manifest: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Uploading segment: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest0.ts
+Uploading segment: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest1.ts
+Uploading segment: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest2.ts
+HLS conversion and upload completed for key: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 16914ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 17975)
+
+
+Started GET "/videos/videos%2F9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 20:00:30 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.5ms)
+Completed 200 OK in 355ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3863)
+
+
+Started GET "/videos/videos%2F9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4/manifest0.ts" for ::1 at 2024-09-05 20:00:31 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/9ed8e07d-136a-4e07-a884-b903da3a103b-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest0.ts"}
+Sent data  (0.5ms)
+Completed 200 OK in 464ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4009)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-05 20:04:19 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00005ce5edebf638 @tempfile=#<Tempfile:/tmp/RackMultipart20240905-970773-lwxdoa.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4
+Converting video to HLS: /tmp/manifest.m3u8
+Uploading manifest: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Uploading segment: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest0.ts
+Uploading segment: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest1.ts
+Uploading segment: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest2.ts
+HLS conversion and upload completed for key: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 16451ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 233177)
+
+
+Started GET "/videos/videos%2F4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-05 20:04:36 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.5ms)
+Completed 200 OK in 384ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3924)
+
+
+Started GET "/videos/videos%2F4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest0.ts" for ::1 at 2024-09-05 20:04:36 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest0.ts"}
+Sent data  (0.4ms)
+Completed 200 OK in 406ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4048)
+
+
+Started GET "/videos/videos%2F4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest1.ts" for ::1 at 2024-09-05 20:05:23 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest1.ts"}
+Sent data  (0.3ms)
+Completed 200 OK in 3849ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4202)
+
+
+Started GET "/videos/videos%2F4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4/manifest2.ts" for ::1 at 2024-09-05 20:05:27 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/4334af13-a635-4e90-a861-3c8067dc5b7f-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest2.ts"}
+Sent data  (0.4ms)
+Completed 200 OK in 2020ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-06 13:05:14 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000077c11c4bb900 @tempfile=#<Tempfile:/tmp/RackMultipart20240906-1178068-ds2glt.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4
+Converting video to HLS: /tmp/manifest.m3u8
+Uploading manifest: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Uploading segment: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest0.ts
+Uploading segment: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest1.ts
+Uploading segment: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest2.ts
+HLS conversion and upload completed for key: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 12873ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 232284)
+
+
+Started GET "/videos/videos%2F06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-06 13:05:28 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.6ms)
+Completed 200 OK in 392ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3920)
+
+
+Started GET "/videos/videos%2F06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest0.ts" for ::1 at 2024-09-06 13:05:28 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest0.ts"}
+Sent data  (0.4ms)
+Completed 200 OK in 382ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4015)
+
+
+Started GET "/videos/videos%2F06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for 127.0.0.1 at 2024-09-06 13:05:59 +0530
+Processing by VideosController#hls_manifest as HTML
+  Parameters: {"key"=>"videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.4ms)
+Completed 200 OK in 1019ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4125)
+
+
+Started GET "/videos/videos%2F06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest1.ts" for ::1 at 2024-09-06 13:08:55 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest1.ts"}
+Sent data  (0.5ms)
+Completed 200 OK in 1865ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4181)
+
+
+Started GET "/videos/videos%2F06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4/manifest2.ts" for ::1 at 2024-09-06 13:08:57 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/06e9be0e-3d4a-48c2-8252-8c60484d1dc8-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest2.ts"}
+Sent data  (0.3ms)
+Completed 200 OK in 590ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+[dotenv] Set [36mAWS_REGION[0m, [36mAWS_ACCESS_KEY_ID[0m, [36mAWS_SECRET_ACCESS_KEY[0m, and [36mS3_BUCKET_NAME[0m
+[dotenv] Loaded [33m.env[0m
+Started POST "/videos/upload" for ::1 at 2024-09-10 15:34:49 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VideosController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000765d2c4af448 @tempfile=#<Tempfile:/tmp/RackMultipart20240910-3541929-nd4wey.mp4>, @content_type="video/mp4", @original_filename="file_example_MP4_480_1_5MG.mp4", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file_example_MP4_480_1_5MG.mp4\"\r\nContent-Type: video/mp4\r\n">}
+File uploaded successfully with key: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4
+Converting video to HLS: /tmp/manifest.m3u8
+Uploading manifest: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Uploading segment: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest0.ts
+Uploading segment: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest1.ts
+Uploading segment: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest2.ts
+HLS conversion and upload completed for key: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4
+Completed 200 OK in 74621ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 234036)
+
+
+Started GET "/videos/videos%2F302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest.m3u8" for ::1 at 2024-09-10 15:36:05 +0530
+Processing by VideosController#hls_manifest as */*
+  Parameters: {"key"=>"videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4"}
+Attempting to fetch manifest with key: videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest.m3u8
+Manifest found. Content type: application/vnd.apple.mpegurl
+Sent data  (0.5ms)
+Completed 200 OK in 936ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3923)
+
+
+Started GET "/videos/videos%2F302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest0.ts" for ::1 at 2024-09-10 15:36:06 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest0.ts"}
+Sent data  (0.4ms)
+Completed 200 OK in 24898ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4197)
+
+
+Started GET "/videos/videos%2F302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest1.ts" for ::1 at 2024-09-10 15:37:47 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest1.ts"}
+Sent data  (0.4ms)
+Completed 200 OK in 2794ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4226)
+
+
+Started GET "/videos/videos%2F302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4/manifest2.ts" for ::1 at 2024-09-10 15:37:50 +0530
+Processing by VideosController#hls_segment as */*
+  Parameters: {"key"=>"videos/302e134b-520e-40ed-9b3c-2c78a5e6f3f4-file_example_MP4_480_1_5MG.mp4", "segment"=>"manifest2.ts"}
+Sent data  (0.7ms)
+Completed 200 OK in 911ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3904)
+
+
